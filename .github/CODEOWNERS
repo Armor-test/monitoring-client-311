@@ -1,0 +1,39 @@
+# CODEOWNERS file for monitoring-client-311
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-ui @Armor-test/squad-research @Armor-test/team-research
+
+# Directory ownership
+/src/ @Armor-test/squad-ux @Armor-test/grp-search
+/modules/ @Armor-test/unit-devops @Armor-test/team-security
+/spec/ @Armor-test/team-research @Armor-test/squad-ml @Armor-test/team-reporting
+/scripts/ @Armor-test/grp-ui @Armor-test/team-core
+/views/ @Armor-test/dept-reliability @Armor-test/dept-release @Armor-test/squad-qa
+/deploy/ @Armor-test/team-governance @Armor-test/dept-reliability
+/build/ @Armor-test/grp-integration @Armor-test/squad-api @Armor-test/dept-test
+/plugins/ @Armor-test/squad-product @Armor-test/team-reporting @Armor-test/squad-cache
+/tests/ @Armor-test/unit-design @Armor-test/squad-payments @Armor-test/dept-reporting
+/shared/ @Armor-test/dept-identity @Armor-test/unit-test
+/security/ @Armor-test/squad-api @Armor-test/squad-ml
+/styles/ @Armor-test/grp-integration @Armor-test/unit-devops @Armor-test/dept-ui
+/models/ @Armor-test/squad-search @Armor-test/squad-research
+/migrations/ @Armor-test/team-logging @Armor-test/grp-ui @Armor-test/unit-cloud
+/hooks/ @Armor-test/squad-product @Armor-test/team-governance
+
+# File type ownership
+*.css @Armor-test/squad-performance @Armor-test/dept-identity
+*.json @Armor-test/squad-frontend @Armor-test/team-security @Armor-test/squad-qa
+*.tf @Armor-test/dept-reporting @Armor-test/dept-security
+*.js @Armor-test/unit-design @Armor-test/unit-cloud @Armor-test/squad-cloud
+*.kt @Armor-test/team-logging @Armor-test/grp-ui @Armor-test/squad-tooling
+*.scala @Armor-test/dept-reporting @Armor-test/unit-cloud
+*.yml @Armor-test/team-security @Armor-test/dept-notifications @Armor-test/dept-automation
+*.md @Armor-test/dept-test @Armor-test/team-security
+*.go @Armor-test/grp-payments @Armor-test/grp-search @Armor-test/squad-mobile
+*.scss @Armor-test/squad-frontend @Armor-test/team-security @Armor-test/dept-ui
+
+# Security and special files
+package.json @Armor-test/dependency-team @Armor-test/security
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+/src/**/security/ @Armor-test/security @Armor-test/compliance
